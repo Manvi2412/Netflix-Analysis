@@ -1,0 +1,88 @@
+**Netflix Content Analysis & Insights Dashboard**
+
+*Overview*
+This project presents an end-to-end data analysis and visualization of Netflix content using SQL and Power BI. The objective is to explore content distribution, rating patterns, and growth trends to derive actionable insights about the platform’s content strategy.
+The analysis is based on a dataset of 10,000+ Netflix titles, covering attributes such as genre, country, release year, ratings, and content type.
+
+*Objectives*
+1. Analyze the distribution of movies and TV shows on Netflix.
+2. Identify trends in content growth over time.
+3. Evaluate content quality using IMDB ratings.
+4. Understand genre dominance and content categorization.
+5. Derive business insights to support content strategy decisions.
+
+*Tools & Technologies*
+1. SQL (PostgreSQL) – Data exploration and business queries.
+2. Power BI – Dashboard design and visualization.
+3. Power Query – Data cleaning and transformation.
+4. DAX – KPI creation and analytical measures.
+
+*Data Preparation*
+1. Cleaned and processed 10,000+ records using Power Query.
+2. Handled missing values in key fields such as country and ratings.
+3. Normalized multi-value columns (genres, countries) for analysis.
+4. Converted date fields and extracted time-based features (year, month).
+
+*Key Features of the Dashboard*
+1. KPI cards highlighting total titles, average rating, and content split.
+2. Time-series analysis of content growth.
+3. Genre distribution using treemap with Top-N filtering.
+4. Rating distribution segmented by popularity.
+5. Comparative analysis of ratings across content types.
+6. Interactive filters for dynamic exploration.
+
+*Key Business Insights*
+
+*Content Distribution*
+1. Movies dominate the platform, accounting for approximately 97% of total content.
+2. TV shows form a significantly smaller portion but show competitive rating trends.
+
+*Content Growth*
+1. Content production remained relatively stable until 2015.
+2. A sharp increase in content addition is observed post-2015, indicating aggressive expansion.
+*Content Quality*
+1. Majority of content falls under the “Average” rating category.
+2. A smaller proportion of titles achieve high ratings, indicating potential scope for quality improvement.
+*Genre Insights*
+1. Drama and TV-related genres contribute the highest number of titles.
+2. Genre distribution is highly skewed, with a few dominant categories.
+*Strategic Observations*
+1. The platform prioritizes volume over high-rated content.
+2. Rapid expansion suggests a shift towards content diversification and global reach.
+3. Opportunity exists to focus on high-quality, high-rating content to improve user engagement.
+
+**SQL Analysis**
+
+*A set of 15+ business-driven SQL queries were executed to explore:*
+
+1. Content type distribution
+2. Most frequent ratings
+3. Top countries contributing content
+4. Genre-wise content count
+5. Actor and director-level insights
+6. Content categorization based on description
+
+*Dashboard Preview*
+
+
+
+*How to Use*
+1. Open the Power BI file (.pbix).
+2. Interact with slicers (Type, Rating Category).
+3. Explore visuals for insights across dimensions.
+4. Use filters to drill down into specific segments.
+
+*Project Outcomes*
+
+This project demonstrates:
+
+1. End-to-end data analysis workflow
+2. Strong understanding of data cleaning and transformation
+3. Ability to design interactive dashboards
+4. Capability to derive and communicate business insights
+
+
+*Author*
+
+Manvi Taneja
+Data Analyst | Machine Learning Enthusiast
